@@ -1,0 +1,74 @@
+* {
+padding: 0;
+margin: 0;
+}
+
+body {
+  background-image: url(./images/backgroundimg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family: 'Fira Code', monospace;
+}
+
+main {
+  margin-top: 100px;
+  border: groove 7px rgb(0, 0, 0);
+  display: inline-block;
+  padding: 42px 44px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+header h1 {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 60px;
+  color: #9c6644;
+}
+
+#funcionamento {
+  font-weight: 300;
+  color: #7f5539;
+  margin-top: 40px;
+}
+
+.add-task {
+  margin-top: 10px;
+}
+
+.add-task label {
+  color: #7f5539;
+}
+
+input {
+  padding: 2px 0px;
+  border-radius: 10px;
+  background-color: #ede0d4;
+  border: 2px solid black;
+}
+
+ol {
+  text-align: left;
+  list-style-position: inside;
+  margin-top: 15px;
+
+}
+
+ol li {
+  color: #7a7977;
+}
+
+button {
+  margin-top: 10px;
+  font-family: 'Fira Code', monospace;
+  background-color: #ede0d4;
+  color: #7f5539;
+  padding: 2px 8px;
+  border: 1.5px solid #7f5539;
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through solid #9c6644;
+}
